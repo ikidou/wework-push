@@ -1,0 +1,19 @@
+[Unit]
+Description=Wework Push API
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+#User=www-data
+#Group=www-data
+请自行替换下面的路径
+WorkingDirectory={PATH_TO_GIT_REPO}/src
+EnvironmentFile={PATH_TO_GIT_REPO}/.env
+ExecStart={PATH_TO_DENO_BIN} run --allow-net --allow-env main.ts
+TimeoutStopSec=5s
+PrivateTmp=true
+ProtectSystem=full
+
+[Install]
+WantedBy=multi-user.target

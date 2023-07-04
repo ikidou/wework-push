@@ -1,0 +1,10 @@
+export default {
+  APP_TOKEN: "",
+  AGENT_TOKEN: "XyPOGAy9u9lC4GMHMMFGM5Xf86",
+  AGENT_ENCODING_AES_KEY: "Uul4MFjbw14yVKxM8iJlyHG5jx4iE7ZeqcBtUvjeI7M",
+  AGENT_ID: 1000003,
+
+  TO_USER: "ChenJian",
+  CROP_ID: "wwa2e9276106bec3a1",
+  CORP_SECRET: "ShpON0sfGmHDBdkC712H2bd4utTbHaoUtp9Xi4UBy1c",
+};

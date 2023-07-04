@@ -1,0 +1,10 @@
+{
+  "deno.enable": true,
+  "code-runner.executorMap": {
+    "typescript": "NO_COLOR=true /usr/local/lib/deno/bin/deno run --allow-all"
+  },
+  "deno.unstable": true,
+  "editor.tabSize": 2,
+  "json.format.enable": true,
+  "json.format.keepLines": true
+}
